@@ -2,6 +2,13 @@
 {
     public class ValidAnagram_242
     {
+        /// <summary>
+        /// Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+        /// An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="t"></param>
+        /// <returns></returns>
         public static bool IsAnagram(string s, string t)
         {
             if (s.Length != t.Length) return false;
