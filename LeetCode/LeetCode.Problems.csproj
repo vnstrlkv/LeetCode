@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LeetCode.Shared\LeetCode.Shared.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,6 @@
-﻿namespace LeetCode.Problems.Array
+﻿using LeetCode.Shared.Sorts;
+
+namespace LeetCode.Problems.Array
 {
     public class ContainsDuplicate_217
     {
