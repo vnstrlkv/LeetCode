@@ -12,7 +12,7 @@
         public static bool IsAnagram(string s, string t)
         {
             if (s.Length != t.Length) return false;
-            var sDict = new Dictionary<char, int>();
+            var sDict = new Dictionary<char, int>(26);
             for (int i = 0; i < s.Length; i++)
             {
                 if (sDict.TryGetValue(s[i], out _))

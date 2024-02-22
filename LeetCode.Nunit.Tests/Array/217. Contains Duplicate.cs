@@ -1,6 +1,6 @@
 using LeetCode.Problems.Array;
 
-namespace LeetCode.Nunit.Tests
+namespace LeetCode.Nunit.Tests.Array
 {
     public class ContainsDuplicateTest_217
     {
